@@ -1,0 +1,6 @@
+body {
+    background-color: rgb(37, 37, 37);
+    display: grid;
+    place-content: center;
+    color: #b3dbf3;
+}
