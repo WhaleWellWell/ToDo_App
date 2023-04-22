@@ -1,6 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Extreme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+.material-symbols-rounded {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
 body {
-    background-color: rgb(37, 37, 37);
-    display: grid;
-    place-content: center;
-    color: #b3dbf3;
+    font-family: 'Nunito', sans-serif;
+    background: url("./john-rodenn-castillo-rQqWOHZ96OM-unsplash.jpg");
+    color: #46494C;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.wrapper {
+    height: 75vh;
+    background-color: #2f8ad5;
+    padding: 4rem;
+    padding-top: 1rem;
+    border-radius: 2rem;
+    opacity: .8;
+}
+
+textarea, input, select {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+input {
+    background-color: #e3e3e3;
+    border: 0;
+    color: #46494C;
+    border-radius: .5rem;
+    padding: .5rem;
+    margin: .25rem;
 }

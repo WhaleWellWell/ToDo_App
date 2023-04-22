@@ -13,6 +13,7 @@ Form_Submit.addEventListener("click", () => {
     }
 
     let Item_To_Add = App_Input.value;
+    
     let li = document.createElement("li");
 
     App_List.appendChild(li);
